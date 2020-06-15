@@ -10,4 +10,4 @@ let Size = Object.freeze({
     large: 'large'
 })
 
-export default {Color, Size};
+export {Color, Size};

@@ -1,8 +1,9 @@
-import Filter from 'Filter/Filter';
 import Product from 'Product';
-import AndSpecification from 'Filter/AbstractSpecification';
-import ColorSpecification from 'Filter/AbstractSpecification';
-import SizeSpecification from 'Filter/AbstractSpecification';
+import AndSpecification from 'Filter/Specifications/AbstractSpecification';
+import ColorSpecification from 'Filter/Specifications/AbstractSpecification';
+import SizeSpecification from 'Filter/Specifications/AbstractSpecification';
+import {Color, Size } from 'ProductConstants';
+import Filter from 'Filter/Filter';
 
 // Création des produits à filter
 
@@ -33,15 +34,4 @@ for(let p of bf.filter(products, specs
 ))
 {
     console.log(`* ${p.name} is green and large`);
-}
-
-let pf = new ProductFiler();
-console.log('Green products (old)');
-
-
-
-
-for(let p of pf.filterByColor(products, Color.green))
-{
-    console.log(`* ${p.name} is green`)
 }

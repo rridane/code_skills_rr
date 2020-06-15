@@ -1,7 +1,7 @@
 /**
  *  Main product Class
  */
-class Product {
+export default class Product {
     constructor(name, color, size){
         this.name = name;
         this.color = color;
@@ -9,4 +9,3 @@ class Product {
     }
 }
 
-export default Product;
