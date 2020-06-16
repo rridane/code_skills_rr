@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d4f7af-a234-4ee3-badc-cc316a7f0baf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.baberc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/Builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/Tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/designPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/designPatterns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnterprisePatterns/OpenClosedPrinciple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnterprisePatterns/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/EnterprisePatterns/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnterprisePatterns/ProductConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/EnterprisePatterns/ProductConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/Filter/Filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/Filter/Specifications/AbstractSpecification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/Filter/Specifications/Specifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/ProductConstants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterFilter/main.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,69 +21,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="designPatterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Specifications.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/AbstractSpecification.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/ProductConstants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Builder/Builder.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Builder/Tag.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="35" selection-start-column="35" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,21 +78,35 @@
         <option value="$PROJECT_DIR$/EnterprisePatterns/OpenClosedPrinciple.js" />
         <option value="$PROJECT_DIR$/EnterprisePatterns/main.js" />
         <option value="$PROJECT_DIR$/EnterprisePatterns/Product.js" />
+        <option value="$PROJECT_DIR$/BetterFilter/main.js" />
+        <option value="$PROJECT_DIR$/LiskobSubstitutionPrinciple/main.js" />
+        <option value="$PROJECT_DIR$/InterfaceSegregationPrinciple/main.js" />
+        <option value="$PROJECT_DIR$/Builder/main.js" />
+        <option value="$PROJECT_DIR$/Builder/test.js" />
+        <option value="$PROJECT_DIR$/Builder/builder.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/Builder/main.php" />
+        <option value="$PROJECT_DIR$/Builder/Tag.php" />
+        <option value="$PROJECT_DIR$/.baberc" />
+        <option value="$PROJECT_DIR$/Builder/Builder.js" />
+        <option value="$PROJECT_DIR$/Builder/Tag.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,15 +114,11 @@
               <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterprisePatterns" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +128,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -170,16 +160,17 @@
       <workItem from="1592200299890" duration="102000" />
       <workItem from="1592200412645" duration="2205000" />
       <workItem from="1592211563327" duration="6121000" />
-      <workItem from="1592225936016" duration="239000" />
+      <workItem from="1592225936016" duration="4435000" />
+      <workItem from="1592293364134" duration="6066000" />
+      <workItem from="1592319051422" duration="3687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8970000" />
+    <option name="totallyTimeSpent" value="22732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.253125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,50 +197,73 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Builder/Tag.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EnterprisePatterns/OpenClosedPrinciple.js" />
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Specifications.js">
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Specifications.js" />
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Filter.js" />
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/AbstractSpecification.js" />
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Product.js" />
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/ProductConstants.js" />
+    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/main.js" />
+    <entry file="file://$PROJECT_DIR$/LiskobSubstitutionPrinciple/main.js" />
+    <entry file="file://$PROJECT_DIR$/InterfaceSegregationPrinciple/main.js" />
+    <entry file="file://$PROJECT_DIR$/BetterFilter/main.js" />
+    <entry file="file://$PROJECT_DIR$/Builder/test.js" />
+    <entry file="file://$PROJECT_DIR$/Builder/main.js" />
+    <entry file="file://$PROJECT_DIR$/Builder/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/Filter.js">
+    <entry file="file://$PROJECT_DIR$/Builder/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Filter/AbstractSpecification.js">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/ProductConstants.js">
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.baberc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/Product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnterprisePatterns/main.js">
+    <entry file="file://$PROJECT_DIR$/Builder/Builder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/Tag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>

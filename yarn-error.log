@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-preset-es2015 babel-cli
+
+PATH: 
+  C:\Users\ext-rridane\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ext-rridane\bin;C:\Python38\Scripts;C:\Python38;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\ImageMagick-7.0.9-Q16;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Ruby25-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH;C:\wamp64\bin\php\php7.3.5;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\Symfony;C:\Program Files (x86)\BlackFire;C:\wamp64\bin\mysql\mysql5.7.24\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\ext-rridane\AppData\Local\Microsoft\WindowsApps;C:\Users\ext-rridane\AppData\Roaming\Composer\vendor\bin;C:\Users\ext-rridane\AppData\Local\Yarn\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files (x86)\BlackFire;C:\Users\ext-rridane\AppData\Local\MaxTo;C:\Users\ext-rridane\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\ext-rridane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ext-rridane\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-preset-es2015: tunneling socket could not be established, cause=connect ETIMEDOUT 10.169.119.6:3128
+      at ClientRequest.onError (C:\Program Files (x86)\Yarn\lib\cli.js:141076:17)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketErrorListener (_http_client.js:426:9)
+      at Socket.emit (events.js:315:20)
+      at emitErrorNT (internal/streams/destroy.js:92:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
