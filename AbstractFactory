@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T12:21:09.986Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QTvMSTWGw69Je_lkX3dJ" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T06:16:02.873Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JTBXcfWsQq8cnFn-J5zt" version="21.0.2" type="github" pages="2">
   <diagram name="AbstractFactory" id="wBLB50ndiuzwH3vPlfpo">
-    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -321,6 +321,52 @@
         </mxCell>
         <mxCell id="8-loA80qppVBk1mBf-55-164" value="Objectif" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fontColor=#FF3A24;" parent="1" vertex="1">
           <mxGeometry x="306" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UEPJLG08xjTo9XI1EAtX" name="Adapter">
+    <mxGraphModel dx="1593" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X05ygXeDYU1qzmgjns1s-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="265" width="410" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-1" value="Service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="380" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-2" value="__construct(cache $cache)&lt;br&gt;&lt;br&gt;utilise historiquement&lt;br&gt;&lt;br&gt;get()&lt;br&gt;set()&lt;br&gt;delete()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X05ygXeDYU1qzmgjns1s-1">
+          <mxGeometry y="70" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-4" value="Adapter" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;" vertex="1" parent="1">
+          <mxGeometry x="26" y="40" width="1590" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-5" value="CacheService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-6" value="dispose de&amp;nbsp;&lt;br&gt;&lt;br&gt;getCacheKey()&lt;br&gt;setCacheKey()&lt;br&gt;remove()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X05ygXeDYU1qzmgjns1s-5">
+          <mxGeometry y="70" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X05ygXeDYU1qzmgjns1s-7" target="X05ygXeDYU1qzmgjns1s-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-7" value="CacheInterface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="290" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="X05ygXeDYU1qzmgjns1s-7" source="X05ygXeDYU1qzmgjns1s-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-8" value="get()&lt;br&gt;set()&lt;br&gt;delete()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X05ygXeDYU1qzmgjns1s-7">
+          <mxGeometry y="45" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-10" value="CacheAdapter" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="460" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="X05ygXeDYU1qzmgjns1s-12" value="__construct(cacheService $cache)&lt;br&gt;&lt;br&gt;get() with getCacheKey()&lt;br&gt;set() with seCacheKey()&lt;br&gt;delete() with remove()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X05ygXeDYU1qzmgjns1s-10">
+          <mxGeometry y="60" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
